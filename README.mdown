@@ -8,6 +8,10 @@ Created by **Devin Doty**
 
 Just add DDMenuController.m/h into your project.
 
+<div class="macbuildserver-block">
+    <a class="macbuildserver-button" href="http://macbuildserver.com/project/github/build/?xcode_project=DDMenuController.xcodeproj&amp;target=DDMenuController&amp;repo_url=https%3A%2F%2Fgithub.com%2Fdevindoty%2FDDMenuController&amp;build_conf=Release" target="_blank"><img src="http://com.macbuildserver.github.s3-website-us-east-1.amazonaws.com/button_up.png"/></a><br/><sup><a href="http://macbuildserver.com/github/opensource/" target="_blank">by MacBuildServer</a></sup>
+</div>
+
 # How to implement
 
 DDMenuController is a subclass of UINavigationController, so you can push and pop views the same. If a left or right view is revealed and push is called, the menu controller will animate to it nicely from the revealed state. Creating a menu controller is the same as a UINavigationController with two additional properties, leftController and rightController. If either or both of these is set a button will be created on the nav for it and panning will be enabled.
